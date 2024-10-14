@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    margin-top: 25px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+button {
+    cursor: pointer;
+    margin-top: 25px;
+    height: 35px;
+    padding: 10px 20px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
