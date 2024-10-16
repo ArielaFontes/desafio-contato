@@ -8,11 +8,10 @@ const contacts = [
     { name: 'Jucinete', number: '(79) 9 9888-6632' }
 
 ]
-
 function search() {
-    for (let i = 0; i < contacts.length; i++) {
-        if (input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
-            p.innerHTML = (`Nome: ${contacts[i].name} Telefone: ${contacts[i].number}`);
+    for ( const contact of contacts ) {
+        if (input.value.toLowerCase() === contact.name.toLowerCase()) {
+            p.innerHTML = (`Nome: ${contact.name} Telefone: ${contact.number}`);
             break
 
         } else {
